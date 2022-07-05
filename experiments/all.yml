@@ -8,7 +8,9 @@ conditions:
       operator: semver-eq
       semver: '5'
     group:
-      name: Target Group 1
+      name:
+        - Target Group 1
+        - rg2
     value: true
   - property:
       name: colorProperty
