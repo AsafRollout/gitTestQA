@@ -8,6 +8,7 @@ conditions:
       operator: semver-eq
       semver: '5'
     group:
+      operator: and
       name:
         - Target Group 1
         - rg2
