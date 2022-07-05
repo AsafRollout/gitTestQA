@@ -3,7 +3,7 @@ type: experiment
 flag: str1
 availableValues:
   - asdf
-  - qwe
+  - fq
 conditions:
   - version:
       operator: semver-eq
@@ -11,4 +11,4 @@ conditions:
     group:
       name: Target Group 1
     value: asdf
-value: qwe
+value: fq
