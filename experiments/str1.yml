@@ -4,6 +4,7 @@ flag: str1
 availableValues:
   - ba
   - zz
+  - qwe
 conditions:
   - version:
       operator: semver-eq
