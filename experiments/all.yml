@@ -5,7 +5,10 @@ labels:
   - label
 flag: all
 conditions:
-  - property:
+  - version:
+      operator: semver-ne
+      semver: '1'
+    property:
       name: colorProperty
       operator: in-array
       operand:
