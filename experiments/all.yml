@@ -1,17 +1,16 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 description: asdf
+labels:
+  - label
 flag: all
 conditions:
-  - value: true
+  - value: false
   - version:
       operator: semver-eq
       semver: '5'
     group:
-      operator: and
-      name:
-        - Target Group 1
-        - rg2
+      name: Target Group 1
     value: true
   - property:
       name: colorProperty
