@@ -5,7 +5,11 @@ labels:
   - label
 flag: all
 conditions:
-  - value: false
+  - property:
+      name: colorProperty
+      operator: ne
+      operand: asdf
+    value: false
   - version:
       operator: semver-eq
       semver: '5'
