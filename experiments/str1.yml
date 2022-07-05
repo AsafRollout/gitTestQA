@@ -2,8 +2,7 @@
 type: experiment
 flag: str1
 availableValues:
-  - ba
-  - zz
+  - asdf
   - qwe
 conditions:
   - version:
@@ -11,5 +10,5 @@ conditions:
       semver: '2'
     group:
       name: Target Group 1
-    value: null
+    value: asdf
 value: qwe
