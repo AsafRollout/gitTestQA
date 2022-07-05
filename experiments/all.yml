@@ -7,7 +7,9 @@ flag: all
 conditions:
   - property:
       name: colorProperty
-      operator: is-undefined
+      operator: in-array
+      operand:
+        - '123'
     value: false
   - version:
       operator: semver-eq
