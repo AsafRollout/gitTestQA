@@ -1,0 +1,6 @@
+type: target-group
+name: rg2
+conditions:
+  - operator: ne
+    property: colorProperty
+    operand: fdew
