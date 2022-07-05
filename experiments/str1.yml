@@ -3,6 +3,7 @@ type: experiment
 flag: str1
 availableValues:
   - ba
+  - zz
 conditions:
   - version:
       operator: semver-eq
