@@ -33,9 +33,6 @@ conditions:
       value: var2
     value: true
 value:
-  - from: 2022-07-05T09:54:12.134Z
-    percentage: 0
-    option: true
   - from: 2022-07-19T21:00:00.000Z
     percentage: 80
     option: true
