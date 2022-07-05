@@ -7,18 +7,19 @@ conditions:
       semver: '5'
     group:
       name: Target Group 1
-    value:
-      - percentage: 30
-        option: true
-  - dependency:
-      flag: variant2
-      value: var2
     value: true
   - property:
       name: colorProperty
       operator: ne
       operand: asdf
-    value: false
+    value: true
+  - version:
+      operator: semver-eq
+      semver: '2'
+    dependency:
+      flag: variant2
+      value: var2
+    value: true
 value:
   - from: 2022-07-05T09:54:12.134Z
     percentage: 0
