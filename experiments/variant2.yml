@@ -9,6 +9,12 @@ flag: variant2
 availableValues:
   - var2
   - var1
+conditions:
+  - value:
+      - percentage: 50
+        option: var2
+      - percentage: 50
+        option: var1
 value:
   - percentage: 50
     option: var2
