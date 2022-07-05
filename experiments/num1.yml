@@ -1,0 +1,16 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+flag: num1
+availableValues:
+  - 12
+  - 11
+  - 13
+conditions:
+  - version:
+      operator: semver-gt
+      semver: '1'
+    dependency:
+      flag: variant2
+      value: var2
+    value: 13
+value: 11

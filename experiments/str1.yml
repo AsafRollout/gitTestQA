@@ -1,0 +1,12 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+flag: str1
+availableValues:
+  - ba
+conditions:
+  - version:
+      operator: semver-eq
+      semver: '2'
+    group:
+      name: Target Group 1
+    value: ba

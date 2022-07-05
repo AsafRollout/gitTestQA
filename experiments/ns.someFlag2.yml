@@ -1,0 +1,15 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+name: some flag 2
+description: asdfasdfd
+labels:
+  - label
+enabled: false
+stickinessProperty: colorProperty
+flag: ns.someFlag2
+availableValues:
+  - 'true'
+  - '1'
+  - '34'
+  - zzz
+value: '1'

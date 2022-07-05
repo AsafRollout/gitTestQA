@@ -1,0 +1,31 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+flag: all
+conditions:
+  - version:
+      operator: semver-eq
+      semver: '5'
+    group:
+      name: Target Group 1
+    value:
+      - percentage: 30
+        option: true
+  - dependency:
+      flag: variant2
+      value: var2
+    value: true
+  - property:
+      name: colorProperty
+      operator: ne
+      operand: asdf
+    value: true
+value:
+  - from: 2022-07-05T09:54:12.134Z
+    percentage: 0
+    option: true
+  - from: 2022-07-19T21:00:00.000Z
+    percentage: 80
+    option: true
+  - from: 2022-07-27T21:00:00.000Z
+    percentage: 100
+    option: true

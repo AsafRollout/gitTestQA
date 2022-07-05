@@ -1,0 +1,16 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+name: variant 2
+labels:
+  - backward-compatible-configuration
+  - label
+  - label 2
+flag: variant2
+availableValues:
+  - var2
+  - var1
+value:
+  - percentage: 50
+    option: var2
+  - percentage: 50
+    option: var1

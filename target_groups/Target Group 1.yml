@@ -1,0 +1,12 @@
+type: target-group
+name: Target Group 1
+conditions:
+  - operator: ne
+    property: numberProperty
+    operand: 12
+  - operator: gt
+    property: numberProperty
+    operand: 23
+  - operator: semver-lt
+    property: semver prop
+    operand: fdasdsa
