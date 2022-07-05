@@ -11,3 +11,8 @@ conditions:
     group:
       name: Target Group 1
     value: ba
+value:
+  - percentage: 50
+    option: ba
+  - percentage: 50
+    option: zz
